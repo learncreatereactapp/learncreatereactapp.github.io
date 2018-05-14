@@ -19,7 +19,7 @@ This is the standard file used by the source control tool git to determine which
 
 ## package.json
 
-![Create React App .gitignore](/assets/images/create-react-app-package-json.png)
+![Create React App package-json](/assets/images/create-react-app-package-json.png)
 
 This file outlines all the settings for the Create React App.
 
