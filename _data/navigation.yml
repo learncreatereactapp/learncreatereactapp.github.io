@@ -6,6 +6,11 @@ docs:
         url: /
       - title: "Installation"
         url: /install-create-react-app
+      - title: "Structure"
+        url: /create-react-app-structure
+      - title: "Create React App Development Server"
+        url: /starting-the-create-react-app-development-server
+        
       # - title: "Structure"
       #   url: /structure/
       # - title: "Installation"
