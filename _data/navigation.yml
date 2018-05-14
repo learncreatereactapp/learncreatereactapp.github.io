@@ -4,6 +4,8 @@ docs:
     children:
       - title: "What is Create React App?"
         url: /
+      - title: "Installation"
+        url: /install-create-react-app
       # - title: "Structure"
       #   url: /structure/
       # - title: "Installation"

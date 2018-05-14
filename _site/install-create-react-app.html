@@ -9,19 +9,19 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>What is Create React App? - Learn Create React App</title>
-<meta name="description" content="Create React App is a tool built by developers at Facebook to help you build React applications.">
+<!-- begin _includes/seo.html --><title>Installation - Learn Create React App</title>
+<meta name="description" content="It is possible to manually create a React app, but Facebook has created a node module create-react-app to generate a boilerplate version of a React application.">
 
 
 
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Learn Create React App">
-<meta property="og:title" content="What is Create React App?">
-<meta property="og:url" content="/">
+<meta property="og:title" content="Installation">
+<meta property="og:url" content="/install-create-react-app">
 
 
-  <meta property="og:description" content="Create React App is a tool built by developers at Facebook to help you build React applications.">
+  <meta property="og:description" content="It is possible to manually create a React app, but Facebook has created a node module create-react-app to generate a boilerplate version of a React application.">
 
 
 
@@ -30,9 +30,9 @@
 
 
   <meta name="twitter:site" content="@BunlongVan">
-  <meta name="twitter:title" content="What is Create React App?">
-  <meta name="twitter:description" content="Create React App is a tool built by developers at Facebook to help you build React applications.">
-  <meta name="twitter:url" content="/">
+  <meta name="twitter:title" content="Installation">
+  <meta name="twitter:description" content="It is possible to manually create a React app, but Facebook has created a node module create-react-app to generate a boilerplate version of a React application.">
+  <meta name="twitter:url" content="/install-create-react-app">
 
   
     <meta name="twitter:card" content="summary">
@@ -58,7 +58,7 @@
   
 
 
-<link rel="canonical" href="/">
+<link rel="canonical" href="/install-create-react-app">
 
 
 
@@ -196,7 +196,7 @@
             
             
 
-            <li><a href="/" class="active">What is Create React App?</a></li>
+            <li><a href="/" class="">What is Create React App?</a></li>
           
             
             
@@ -204,7 +204,7 @@
             
             
 
-            <li><a href="/install-create-react-app" class="">Installation</a></li>
+            <li><a href="/install-create-react-app" class="active">Installation</a></li>
           
         </ul>
         
@@ -218,15 +218,15 @@
 
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="What is Create React App?">
-    <meta itemprop="description" content="Create React App is a tool built by developers at Facebook to help you build React applications.">
+    <meta itemprop="headline" content="Installation">
+    <meta itemprop="description" content="It is possible to manually create a React app, but Facebook has created a node module create-react-app to generate a boilerplate version of a React application.">
     
     <meta itemprop="dateModified" content="May 14, 2018">
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">What is Create React App?
+          <h1 id="page-title" class="page__title" itemprop="headline">Installation
 </h1>
           
         </header>
@@ -234,9 +234,25 @@
 
       <section class="page__content" itemprop="text">
         
-        <p><a href="https://github.com/facebook/create-react-app">Create React App</a> is a tool built by developers at Facebook to help you build React applications. It saves you from time-consuming setup and configuration. You simply run one command and create react app sets up the tools you need to start your React project.</p>
+        <p>It is possible to manually create a React app, but Facebook has created a node module <code class="highlighter-rouge">create-react-app</code> to generate a boilerplate version of a React application.</p>
 
-<p><img src="/assets/images/react.png" alt="React" /></p>
+<p>Besides providing something that works out-of-the-box, this has the added benefit of providing a consistent structure for React apps that you will recognize as you move between React projects. It also provides an out-of-the-box build script and development server.</p>
+
+<p>We will use npm to install the <code class="highlighter-rouge">create-react-app</code> command line interface (CLI) globally (-g).</p>
+
+<p>Open up your terminal and run:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>npm install -g create-react-app
+</code></pre></div></div>
+
+<p>Now that you have the CLI available for use, navigate to the parent directory that you would like to place the application within. Then, run <code class="highlighter-rouge">create-react-app</code> with the name you would like to use for your project (just no capital letters ):</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>create-react-app &lt;name-of-app&gt;
+</code></pre></div></div>
+
+<p>Upon completion, you will get some quick tips on how to use the application:</p>
+
+<p><img src="/assets/images/install-create-react-app.png" alt="Install Create React App" /></p>
 
         
       </section>
@@ -256,11 +272,11 @@
       
   <nav class="pagination">
     
-      <a href="#" class="pagination--pager disabled">Previous</a>
+      <a href="/" class="pagination--pager" title="What is Create React App?
+">Previous</a>
     
     
-      <a href="/install-create-react-app" class="pagination--pager" title="Installation
-">Next</a>
+      <a href="#" class="pagination--pager disabled">Next</a>
     
   </nav>
 
